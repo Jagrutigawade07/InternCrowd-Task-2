@@ -1,0 +1,110 @@
+/* CSS styles for the header */
+header {
+    background-color: #213e7b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+body{
+    overflow: hidden;
+}
+
+.company-name {
+    font-size: 32px; 
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+header a:hover{
+    background-color: whitesmoke;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: right;
+
+}
+.contact-icons a {
+    margin-right: 10px;
+}
+
+.contact-icons h3{
+    margin-right: 15px;
+}
+.contact-icons img {
+    border-radius: 30%;
+    height: 50px;
+    width: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    padding: 2px;
+}
+
+/* CSS styles for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px); /* Adjusted to consider the header and footer height */
+}
+
+/* CSS styles for the form box */
+.form-box {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #c9d7de;
+    margin-bottom: 300px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100px;
+    padding: 10px;
+    background-color: #213e7b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3e7eac; 
+
+}
+
+.form-box a:hover{
+    color: red;
+}
